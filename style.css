@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond|Josefin+Slab');
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@media only screen {
+
+* {margin: 0; padding: 0;}
+li {
+	display: inline-block;
+}
+ul {
+  list-style: none; 
+  margin: 0; 
+  padding-left: 0; 
+}
+ 
+body {
+  text-align: center;
+  height: 2000px;
+  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Josefin Slab', serif;
+  font-family: 'Roboto', sans-serif;
+}
+#wrapper {
+	position: relative;	
+	width:50%;
+	margin: 0 auto;
+	height: 100%;
+	background-color: white;
+	margin: 0 auto;
+}
+
+.header {
+top: 0;
+left: 0;
+margin: 0 auto;
+position: absolute;
+ display: block;
+ width: 100%;
+ height: 9%;
+  overflow:inherit;
+ z-index: 3;
+}
+.main_name {
+	position: relative;
+	font-family: 'Josefin Slab' ;
+	color:#666666;
+	font-size: 3vw;
+	top: 1em;		
+}
+.discription {
+	position: relative;
+	font-family: 'Cormorant Garamond';
+	font-size: 2vw;
+	color:#666666;
+	top: 2em;
+}
+
+
+.slider {
+	position: absolute;
+	width: 100%;
+	height: auto;
+	top: 0;
+	left: 0;
+}
+
+#slides {
+ list-style-type: none;
+}
+
+.slide {
+ position: absolute;
+ left: 0px;
+ top: 0px;
+ width: 50%;
+ height: 100%;
+ opacity: 0;
+ z-index: 1;
+
+ -webkit-transition: opacity 1s;
+ -moz-transition: opacity 1s;
+ -o-transition: opacity 1s;
+ transition: opacity 1s;
+}
+.showing {
+ opacity: 1;
+ z-index: 2;
+}
+.image1 {
+	position:absolute;	
+    top: 15vw;
+    left: 0em;
+    max-width: 100%;
+    height: auto;
+}
+ }
